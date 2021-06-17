@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var imagen: UIImageView!
     
     //var listaCompras:[String]?
-    //Prueba cambio en GitHup
+    //Prueba cambio en GitHup2
     var listaCompras:[Articulo]? {
         didSet{
             self.tablaDeLista.reloadData()
