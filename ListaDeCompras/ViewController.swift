@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     
     //var listaCompras:[String]?
     //Prueba cambio en GitHup2
+    //prueba3 GitHup
     var listaCompras:[Articulo]? {
         didSet{
             self.tablaDeLista.reloadData()
